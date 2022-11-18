@@ -5,7 +5,9 @@
 - [ ] Completar **array_notas_alumnos.cpp**
 
 
-### Enunciados de las Practicas:
+<details>
+<summary>Enunciados de las Practicas</summary>
+<br>
 
 Tema 2: Entorno de Programación Code::Blocks e Introducción a C++
 La metodología de trabajo durante la realización de las prácticas en el laboratorio será la siguiente para cada ejercicio:
@@ -34,22 +36,26 @@ Introduzca la cantidad de pesetas: 500
 
 Ejercicio 2 (p1e2.cpp)
 El siguiente programa escrito en C++ calcula la cantidad bruta y neta a pagar por un trabajo realizado en función de las horas y días trabajados. Sin embargo, en el momento en que se intenta compilarlo se producen una serie de errores. El alumno debe localizar dichos errores y corregirlos. Para ello debe examinar los mensajes que proporciona el compilador e interpretarlos convenientemente.
->#include <iostream>
->using namespace std;
->const tasa : 25.3;
->const PRECIO_HORA = 60.75;
->int main()
->{
-    >double horas, dias, total, neto;
-    >cout << "Introduzca las horas trabajadas: ";
-    >cin << horas;
-    >cout << "Introduzca los dias trabajados: ";
-    >cin >> dias;
-    >horas*dias*PRECIO_HORA = total;
-    >neto = total-TASA;
-    >cout >> "El valor total a pagar es: " >> total >> endl;
-    >cout << "El valor neto a pagar es: " << NETO << endl;
->}
+
+```
+#include <iostream> 
+using namespace std;
+const tasa : 25.3;
+const PRECIO_HORA = 60.75;
+int main()
+{
+    double horas, dias, total, neto;
+    cout << "Introduzca las horas trabajadas: ";
+    cin << horas;
+    cout << "Introduzca los dias trabajados: ";
+    cin >> dias;
+    horas*dias*PRECIO_HORA = total;
+    neto = total-TASA;
+    cout >> "El valor total a pagar es: " >> total >> endl;
+    cout << "El valor neto a pagar es: " << NETO << endl;
+}
+```
+
 Una vez compilado correctamente, la ejecución de este programa para 5 horas trabajadas durante 2 días produce el siguiente resultado:
 Introduzca las horas trabajadas: 5
 Introduzca los dias trabajados: 2
@@ -1225,3 +1231,4 @@ Introduzca la matriz 3x4 (por filas):
 	1	-2	45	3
 Los valores que mas se repiten son: 45 -17 867
 En este caso, son también válidas las siguientes salidas: { 45, -17, 867 }, { 45, -17, 3 }, y { 45, 867, 3 }
+</details>
