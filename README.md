@@ -10,6 +10,9 @@
 <br>
 
 Tema 2: Entorno de Programación Code::Blocks e Introducción a C++
+<details>
+<summary> Texto aburrido </summary>
+<br>
 La metodología de trabajo durante la realización de las prácticas en el laboratorio será la siguiente para cada ejercicio:
   En la carpeta Documentos, cree una carpeta con el nombre-del-alumno, y en esta carpeta, desarrolle los programas con los nombres especificados para cada ejercicio de la práctica.
   Durante la práctica en el laboratorio, el alumno debe dedicar un máximo de 15 minutos para desarrollar la solución del problema, corregir los errores de compilación, ejecutar el programa y depurar los errores que encuentre.
@@ -19,10 +22,10 @@ La metodología de trabajo durante la realización de las prácticas en el labor
 ejercicio.
   El nombre del fichero de cada ejercicio debe ser como se especifica en el enunciado, por ejemplo, el primer ejercicio de la práctica 1 se debe denominar p1e1.cpp, y así sucesivamente. Criterios de codificación:
   El uso de variables globales está prohibido. Sólo se pueden utilizar variables locales, declaradas dentro de main.
-
-
-
-Ejercicios de Laboratorio
+</details>
+<details>
+<summary> Ejercicios de Laboratorio </summary>
+<br>
 
 Ejercicio 1 (p1e1.cpp)
 Para que el alumno se familiarice con el entorno de programación (IDE) Code::Blocks, el alumno debe seguir las indicaciones que se proporcionan en el documento de la Guía de uso del entorno de desarrollo Code::Blocks que se encuentra en el Campus Virtual.
@@ -250,6 +253,9 @@ cout << "Valor de número21 (int):	" << num21 << endl; cout << "Valor de número
 cout << "Resultado (int) (num21 * num22 * num23):	" << res2i << " ERROR" << endl; cout << "Resultado (double) (num21 * num22 * num23): " << res2d << " ERROR" << endl;
 //-------------------------------
 } 
+</details>
+
+
 Fundamentos de la Programación. Práctica de Laboratorio 2
 E.T.S. Ingeniería Informática. Universidad de Málaga.
 Tema 2: Estructuras de Control: Sentencias de Selección
