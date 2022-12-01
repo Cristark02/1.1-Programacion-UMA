@@ -4,7 +4,7 @@ using namespace std;
 
 const int NALUMNOS = 20;
 typedef array <double, NALUMNOS > Notas;
-//COMPLETAR FOTOS MOVIL 
+//COMPLETAR FOTOS MOVIL
 void mostrar_resultado (const Notas& notas, double media)
 {
 
