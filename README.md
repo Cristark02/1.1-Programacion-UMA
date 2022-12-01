@@ -1,8 +1,11 @@
 # 1.1-Programacion-UMA
 
-## Pendiente:
+## Pendiente: (seguramente me olvide de ellas o pierda las fotos)
 - [ ] Completar **correcion_parcial_2.cpp** 
-- [ ] Completar **array_notas_alumnos.cpp**
+- [ ] Completar **array_notas_alumnos.cpp, [V2], [V3]**
+- [ ] Completar (quizás) **buscar_Array.cpp**
+- [ ] Completar **difuminar_matriz**
+- [ ] COmpletar **t3e-.cpp** para practicar el tema 2
 
 
 <details>
