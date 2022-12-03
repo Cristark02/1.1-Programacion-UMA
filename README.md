@@ -17,21 +17,22 @@ Tema 2: Entorno de Programación Code::Blocks e Introducción a C++
 <summary> Texto aburrido </summary>
 <br>
 La metodología de trabajo durante la realización de las prácticas en el laboratorio será la siguiente para cada ejercicio:
-  En la carpeta Documentos, cree una carpeta con el nombre-del-alumno, y en esta carpeta, desarrolle los programas con los nombres especificados para cada ejercicio de la práctica.
+  En la carpeta Documentos, cree una carpeta con el nombre-del-alumno , y en esta carpeta, desarrolle los programas con los nombres especificados para cada ejercicio de la práctica.
   Durante la práctica en el laboratorio, el alumno debe dedicar un máximo de 15 minutos para desarrollar la solución del problema, corregir los errores de compilación, ejecutar el programa y depurar los errores que encuentre.
   Aquellos ejercicios que el alumno no tenga tiempo de terminar durante la práctica en el laboratorio, se deberán terminar en casa, y entregar todos los ejercicios dentro del plazo especificado para la tarea correspondiente.
   Posteriormente, cuando se publique la solución de los ejercicios, el alumno debe analizar la solución proporcionada por el profesor en el campus virtual y compararla con su propia solución.
   Los ejercicios serán corregidos comparando la salida que produce la ejecución del programa con respecto a la salida especificada en el enunciado de cada ejercicio, por ello, cada programa debe mostrar una interacción con el usuario exactamente como se muestra en el enunciado de cada
-ejercicio.
+  ejercicio.
   El nombre del fichero de cada ejercicio debe ser como se especifica en el enunciado, por ejemplo, el primer ejercicio de la práctica 1 se debe denominar p1e1.cpp, y así sucesivamente. Criterios de codificación:
   El uso de variables globales está prohibido. Sólo se pueden utilizar variables locales, declaradas dentro de main.
 </details>
 <details>
-<summary> Ejercicios de Laboratorio </summary>
+<summary> Ejercicios de Laboratorio 1 </summary>
 <br>
-
-Ejercicio 1 (p1e1.cpp)
-Para que el alumno se familiarice con el entorno de programación (IDE) Code::Blocks, el alumno debe seguir las indicaciones que se proporcionan en el documento de la Guía de uso del entorno de desarrollo Code::Blocks que se encuentra en el Campus Virtual.
+<details>
+<summary> Ejercicio 1 (p1e1.cpp) </summary>
+<br>
+Para que el alumno se familiarice con el entorno de programación (IDE) Code::Blocks , el alumno debe seguir las indicaciones que se proporcionan en el documento de la Guía de uso del entorno de desarrollo Code::Blocks que se encuentra en el Campus Virtual.
 En dicho documento se proporciona información sobre como crear, editar y modificar programas fuente en el lenguaje C++, así como su compilación y finalmente la ejecución del programa ejecutable ya
 compilado.
 El programa creado durante la realización de la Guía de uso del entorno de desarrollo Code::Blocks, denominado euros.cpp, debe renombrarse como p1e1.cpp, para que forme parte de los ejercicios de la práctica 1.
@@ -39,11 +40,13 @@ En este programa, el programa debe leer de teclado una determinada cantidad de p
 La ejecución del programa desarrollado, cuando se introduce por teclado la cantidad de 500 pesetas, produce el siguiente resultado:
 Introduzca la cantidad de pesetas: 500
 500 pesetas equivalen a 3.00506 euros
-
-Ejercicio 2 (p1e2.cpp)
+</details>
+<details>
+<summary> Ejercicio 2 (p1e2.cpp) </summary>
+<br>
 El siguiente programa escrito en C++ calcula la cantidad bruta y neta a pagar por un trabajo realizado en función de las horas y días trabajados. Sin embargo, en el momento en que se intenta compilarlo se producen una serie de errores. El alumno debe localizar dichos errores y corregirlos. Para ello debe examinar los mensajes que proporciona el compilador e interpretarlos convenientemente.
 
-```
+```cpp
 #include <iostream> 
 using namespace std;
 const tasa : 25.3;
@@ -67,7 +70,11 @@ Introduzca las horas trabajadas: 5
 Introduzca los dias trabajados: 2
 El valor total a pagar es: 607.5
 El valor neto a pagar es: 582.2
-Ejercicio 3 (p1e3.cpp)
+
+</details>
+<details>
+<summary> Ejercicio 3 (p1e3.cpp) </summary>
+<br>
 Desarrolle un programa que lea dos números de tipo int de teclado y posteriormente muestre en pantalla los valores de los dos números leídos.
 A continuación, realice tres ejecuciones del mismo programa, sin modificar el programa, introdu-
 ciendo los valores que se especifican a continuación para cada una de las ejecuciones:
@@ -88,12 +95,18 @@ El valor del segundo número introducido es: 0
 Realice las ejecuciones del programa especificadas anteriormente y compruebe si produce los resultados esperados. En caso contrario, corrija los errores y repita el proceso de comprobación.
 Finalmente, analice las diferencias entre las tres ejecuciones del mismo programa, escriba la explicación sobre el comportamiento de la ejecución en un comentario en su código, y posteriomente compruebe la solución proporcionada por el profesor cuando sea publicada.
 Téngase en cuenta que el comentario de explicación proporcionado por el alumno no puede ser corregido de forma automática, por lo que el alumno debe comprobar su propia explicación con respecto a la explicación proporcionada por el profesor, cuando ésta sea publicada.
-Ejercicio 4 (p1e4.cpp)
+</details>
+<details>
+<summary> Ejercicio 4 (p1e4.cpp) </summary>
+<br>
 Desarrolle un programa que visualice por pantalla el tamaño en bytes que ocupan todos y cada uno de los tipos básicos vistos en clase: bool, char, int, unsigned, double, etc. Para ello debe usarse el operador sizeof(tipo). Por ejemplo, para el tipo int:
 cout << "int: " << sizeof(int) << " bytes" << endl;
 Ejecute el programa y compruebe si produce los resultados esperados. En caso contrario, corrija los errores y repita el proceso de comprobación. Por ejemplo:
 bool: 1 bytes char: 1 bytes int: 4 bytes unsigned: 4 bytes double: 8 bytes
-Ejercicio 5 (p1e5.cpp)
+</details>
+<details>
+<summary> Ejercicio 5 (p1e5.cpp) </summary>
+<br>
 Desarrolle un programa que lea de teclado una palabra de cuatro letras por teclado (se deben leer cuatro caracteres y almacenarlos en cuatro variables de tipo char), y posteriormente escriba dicha palabra de manera que cada letra se encuentre codificada sustituyéndola por aquel carácter que le sigue en la tabla de código ASCII.
 Ejecute el programa y compruebe si produce los resultados esperados. En caso contrario, corrija los errores y repita el proceso de comprobación. Por ejemplo:
 Introduzca una palabra de 4 letras: SETO
@@ -109,8 +122,13 @@ Introduzca una cantidad de Bytes: 26871979 26871979 Bytes corresponden a:
 Mibytes = 25
 Kibytes = 642
 	Bytes	= 171
-Ejercicio 7 (p1e7.cpp)
+</details>
+<details>
+<summary> Ejercicio 7 (p1e7.cpp) </summary>
+<br>
 El siguiente programa escrito en C++ calcula el área y la longitud de una circunferencia. Al compilarlo se producen una serie de errores que el alumno debe localizar y corregir.
+
+```cpp
 #include <iostream> using namespace std; const int PI=3.1416
 int main()
 { double longitud, area; int radio;
@@ -119,20 +137,28 @@ cout<< "Este programa calcula la longitud y el área de un círculo" cin << "Int
 long = 2*PI*radio; area = PI*(radio*radio) cout << 'Area = ' << area << endl;
 cout << 'Longitud = ' << area << endl;
 }
+```
 Una vez compilado correctamente, la ejecución de este programa para una circunferencia de radio 30 produce el siguiente resultado:
 Hola
 Este programa calcula la longitud y el área de un círculo
 Introduce el radio del círculo: 30
 Area = 2827.44
 Longitud = 188.496
-Ejercicio 8 (p1e8.cpp)
+</details>
+<details>
+<summary> Ejercicio 8 (p1e8.cpp) </summary>
+<br>
 Desarrolle un programa que lea de teclado una palabra de cuatro letras minúsculas (supondremos que la entrada de datos es correcta, se deben leer cuatro caracteres y almacenarlos en cuatro variables de tipo char), y posteriormente escriba las letras mayúsculas correspondientes a las letras minúsculas leídas previamente.
 Tenga presente que no es necesario conocer ni consultar la tabla ASCII de codificación de los caracteres. Sólo es necesario conocer que las letras minúsculas (desde la 'a' hasta la 'z') están consecutivas, y que las letras mayúsculas (desde la 'A' hasta la 'Z') están consecutivas.
 Ejecute el programa y compruebe si produce los resultados esperados. En caso contrario, corrija los errores y repita el proceso de comprobación. Por ejemplo:
 Introduzca una palabra de 4 letras minúsculas: hola La palabra [hola] transformada es [HOLA]
 Otro ejemplo:
 Introduzca una palabra de 4 letras minúsculas: seto
-La palabra [seto] transformada es [SETO] Ejercicio 9 (p1e9.cpp)
+La palabra [seto] transformada es [SETO]
+</details>
+<details>
+<summary> Ejercicio 9 (p1e9.cpp) </summary>
+<br>
 Desarrolle un programa que lea de teclado una cierta cantidad de segundos y muestre su equivalente en semanas, días, horas, minutos y segundos, según el formato de los siguientes ejemplos. Nótense los espacios dentro de los corchetes que delimitan el número de semanas, y los ceros al mostrar las horas, minutos y segundos.
 Para respetar el formato especificado, se recomienda utilizar los manipuladores de entrada/salida setw y setfill (puede consultar la explicación de dichos manipuladores en el apartado de Salida formateda
 de datos, en la sección de Entrada y salida de datos avanzada, en los apuntes del Tema 2).
@@ -141,7 +167,10 @@ Ejecute el programa y compruebe si produce los resultados esperados. En caso con
 Otro ejemplo:
 Introduzca los segundos: 9127145
 9127145 segundos equivalen a [ 15] semanas, 0 dias 15:19:05
-Ejercicio 10 (p1e10.cpp)
+</details>
+<details>
+<summary> Ejercicio 10 (p1e10.cpp) </summary>
+<br>
 Desarrolle un programa que calcule la nota final de una asignatura. Para ello deberá leer por teclado la nota de la parte de teoría y la nota de la parte de problemas, y habrá de calcular la nota final considerando que la parte de teoría vale un 70% de la nota final y la de práctica un 30%.
 Ejecute el programa y compruebe si produce los resultados esperados. En caso contrario, corrija los errores y repita el proceso de comprobación. Por ejemplo:
 Introduzca la nota de teoria: 10
@@ -154,9 +183,14 @@ Otro ejemplo:
 Introduzca la nota de teoria: 4
 Introduzca la nota de practicas: 6
 La calificacion es: 4.6
-Ejercicio 11 (p1e11.cpp)
+</details>
+<details>
+<summary> Ejercicio 11 (p1e11.cpp) </summary>
+<br>
 Codifique el siguiente código, ejecútelo y descubra qué hace este programa y cómo lo hace. Escriba la explicación en un comentario en su código, y posteriomente compruebe la solución proporcionada por el profesor.
 Téngase en cuenta que el comentario de explicación proporcionado por el alumno no puede ser corregido de forma automática, por lo que el alumno debe comprobar su propia explicación con respecto a la explicación proporcionada por el profesor, cuando ésta sea publicada.
+
+```cpp
 #include <iostream> using namespace std; int main()
 {
 int a = 6; int b = 14;
@@ -167,7 +201,13 @@ a	= b;
 b	= auxiliar;
 cout << "a vale " << a << " y b vale " << b << endl;
 }
-Problemas Derivados de la Representación Computacional de los Números Ejercicio 12 (p1e12.cpp)
+```
+
+Problemas Derivados de la Representación Computacional de los Números
+</details>
+<details>
+<summary> Ejercicio 12 (p1e12.cpp) </summary>
+<br>
 Codifique el siguiente programa, ejecútelo varias veces introduciendo como datos de entrada los números mostrados en la siguiente tabla, analice los resultados obtenidos, escriba la explicación sobre los comportamientos de las ejecuciones en un comentario en su código, y posteriomente compruebe la explicación proporcionada por el profesor.
 Téngase en cuenta que el comentario de explicación proporcionado por el alumno no puede ser corregido de forma automática, por lo que el alumno debe comprobar su propia explicación con respecto a la explicación proporcionada por el profesor, cuando ésta sea publicada.
 Puede consultar una explicación en la sección dedicada a los problemas derivados de la implementación de los tipos numéricos, en el apartado de desbordamiento (overflow), en los apuntes del Tema 2.
@@ -175,26 +215,38 @@ Puede consultar una explicación en la sección dedicada a los problemas derivad
 a)	-20 y	30	c)	147483647	y	2000000000	e)	1	y	2147483647
 b)	20 y -30	d)	200000000	y	2000000000	f)	1	y	3000000000
  
+```cpp
 #include <iostream> using namespace std; int main()
 { int num1, num2;
 cout << "Introduzca el primer número entero: "; cin >> num1;
 cout << "Introduzca el segundo número entero: "; cin >> num2; int suma = num1 + num2;
 cout << "Primer número:	" << num1 << endl; cout << "Segundo número:	" << num2 << endl; cout << "Resultado (num1 + num2): " << suma << endl;
 }
-Ejercicio 13 (p1e13.cpp)
+```
+</details>
+<details>
+<summary> Ejercicio 13 (p1e13.cpp) </summary>
+<br>
 Codifique el siguiente programa, ejecútelo, analice el resultado obtenido, escriba la explicación sobre el comportamiento de la ejecución en un comentario en su código, y posteriomente compruebe la explicación proporcionada por el profesor.
 Téngase en cuenta que el comentario de explicación proporcionado por el alumno no puede ser corregido de forma automática, por lo que el alumno debe comprobar su propia explicación con respecto a la explicación proporcionada por el profesor, cuando ésta sea publicada.
 Puede consultar una explicación en la sección dedicada a los problemas derivados de la implementación de los tipos numéricos, en el apartado de la perdida de precisión en las operaciones con números reales,
 en los apuntes del Tema 2.
+```cpp
 #include <iostream> using namespace std; int main()
 {
 bool ok = (3.0 * (0.1 / 3.0)) == ((3.0 * 0.1) / 3.0);
 cout << "Resultado de (3.0 * (0.1 / 3.0)) == ((3.0 * 0.1) / 3.0): "
 << boolalpha << ok << " -> ERROR" << endl;
 }
-Ejercicio 14 (p1e14.cpp)
+```
+</details>
+<details>
+<summary> Ejercicio 14 (p1e14.cpp) </summary>
+<br>
 Codifique el siguiente programa, ejecútelo, analice el resultado obtenido, escriba la explicación sobre el comportamiento de la ejecución en un comentario en su código, y posteriomente compruebe la explicación proporcionada por el profesor.
 Téngase en cuenta que el comentario de explicación proporcionado por el alumno no puede ser corregido de forma automática, por lo que el alumno debe comprobar su propia explicación con respecto a la explicación proporcionada por el profesor, cuando ésta sea publicada.
+
+```cpp
 #include <iostream> using namespace std; int main()
 {
 int num11 = -7; int num12 = 4; double num13 = num11 + num12;
@@ -205,11 +257,17 @@ int num21 = -7; unsigned num22 = 4; double num23 = num21 + num22;
 cout << "Valor de número21 (int):	" << num21 << endl; cout << "Valor de número22 (unsigned):	" << num22 << endl;
 cout << "Valor de número23 (double) (num21 + num22): " << num23 << " ERROR" << endl;
 }
-Ejercicio 15 (p1e15.cpp)
+```
+</details>
+<details>
+<summary> Ejercicio 15 (p1e15.cpp) </summary>
+<br>
 Codifique el siguiente programa, ejecútelo, analice el resultado obtenido, escriba la explicación sobre el comportamiento de la ejecución en un comentario en su código, y posteriomente compruebe la explicación proporcionada por el profesor.
 Téngase en cuenta que el comentario de explicación proporcionado por el alumno no puede ser corregido de forma automática, por lo que el alumno debe comprobar su propia explicación con respecto a la explicación proporcionada por el profesor, cuando ésta sea publicada.
 Nótese que es necesario desactivar la opción de compilación -Werror para que este programa pueda compilar correctamente, ya que el compilador avisará del riesgo de comparar un valor int con un valor unsigned, y en caso de que la opción -Werror estuviese activada, no superaría el proceso de compilación, ya que sería considerado como un error de compilación.
 No olvide volver a activar la opción de compilación -Werror cuando haya terminado de realizar este ejercicio.
+
+```cpp
 #include <iostream> using namespace std; int main()
 {
 int num11 = -7; int num12 = 4;
@@ -229,9 +287,15 @@ cout << "El valor " << num21 << " es menor que el valor " << num22
 << " ERROR" << endl;
 }
 }
-Ejercicio 16 (p1e16.cpp)
+```
+</details>
+<details>
+<summary> Ejercicio 16 (p1e16.cpp) </summary>
+<br>
 Codifique el siguiente programa, ejecútelo, analice el resultado obtenido, escriba la explicación sobre el comportamiento de la ejecución en un comentario en su código, y posteriomente compruebe la explicación proporcionada por el profesor.
 Téngase en cuenta que el comentario de explicación proporcionado por el alumno no puede ser corregido de forma automática, por lo que el alumno debe comprobar su propia explicación con respecto a la explicación proporcionada por el profesor, cuando ésta sea publicada.
+
+```cpp
 #include <iostream> #include <iomanip> using namespace std; int main() {
 //-------------------------------cout << setprecision(9);
 //-------------------------------int num11 = 9527; int num12 = 15937; double res1 = num11 * num12;
@@ -241,26 +305,54 @@ cout << "Resultado (double) (num11 * num12): " << res1 << " CORRECTO" << endl;
 cout << "Valor de número21 (int):	" << num21 << endl; cout << "Valor de número22 (int):	" << num22 << endl; cout << "Resultado (float) (num21 * num22): " << res2 << " ERROR" << endl;
 //-------------------------------
 }
-Ejercicio 17 (p1e17.cpp)
+```
+</details>
+<details>
+<summary> Ejercicio 17 (p1e17.cpp) </summary>
+<br>
 Codifique el siguiente programa, ejecútelo, analice el resultado obtenido, escriba la explicación sobre el comportamiento de la ejecución en un comentario en su código, y posteriomente compruebe la explicación proporcionada por el profesor.
 Téngase en cuenta que el comentario de explicación proporcionado por el alumno no puede ser corregido de forma automática, por lo que el alumno debe comprobar su propia explicación con respecto a la explicación proporcionada por el profesor, cuando ésta sea publicada.
-#include <iostream> #include <iomanip> using namespace std; int main() {
-//-------------------------------cout << setprecision(9);
+
+```cpp
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main() {
+//-------------------------------
+cout << setprecision(9);
 //--------------------------------
-int num11 = 9527; int num12 = 15937; double num13 = 1.0; int res1i = num11 * num12 * num13; double res1d = num11 * num12 * num13;
-cout << "Valor de número11 (int):	" << num11 << endl; cout << "Valor de número12 (int):	" << num12 << endl; cout << "Valor de número13 (double):	" << num13 << endl;
-	cout << "Resultado (int) (num11 * num12 * num13):	" << res1i << " CORRECTO" << endl;
+int num11 = 9527;
+int num12 = 15937;
+double num13 = 1.0;
+int res1i = num11 * num12 * num13;
+double res1d = num11 * num12 * num13;
+cout << "Valor de número11 (int):	" << num11 << endl;
+cout << "Valor de número12 (int):	" << num12 << endl;
+cout << "Valor de número13 (double):	" << num13 << endl;
+cout << "Resultado (int) (num11 * num12 * num13):	" << res1i << " CORRECTO" << endl;
 cout << "Resultado (double) (num11 * num12 * num13): " << res1d << " CORRECTO" << endl;
-//-------------------------------int num21 = 9527; int num22 = 15937; float num23 = 1.0; int res2i = num21 * num22 * num23; double res2d = num21 * num22 * num23;
-cout << "Valor de número21 (int):	" << num21 << endl; cout << "Valor de número22 (int):	" << num22 << endl; cout << "Valor de número23 (float):	" << num23 << endl;
-cout << "Resultado (int) (num21 * num22 * num23):	" << res2i << " ERROR" << endl; cout << "Resultado (double) (num21 * num22 * num23): " << res2d << " ERROR" << endl;
+//-------------------------------
+int num21 = 9527;
+int num22 = 15937;
+ float num23 = 1.0;
+ int res2i = num21 * num22 * num23;
+ double res2d = num21 * num22 * num23;
+cout << "Valor de número21 (int):	" << num21 << endl;
+ cout << "Valor de número22 (int):	" << num22 << endl;
+ cout << "Valor de número23 (float):	" << num23 << endl;
+cout << "Resultado (int) (num21 * num22 * num23):	" << res2i << " ERROR" << endl;
+ cout << "Resultado (double) (num21 * num22 * num23): " << res2d << " ERROR" << endl;
 //-------------------------------
 } 
+```
+</details>
 </details>
 
 
-Fundamentos de la Programación. Práctica de Laboratorio 2
-E.T.S. Ingeniería Informática. Universidad de Málaga.
+
+<details>
+<summary> Práctica de Laboratorio 2 </summary>
+<br>
 Tema 2: Estructuras de Control: Sentencias de Selección
 La metodología de trabajo durante la realización de las prácticas en el laboratorio será la siguiente para cada ejercicio:
   En la carpeta Documentos, cree una carpeta con el nombre-del-alumno, y en esta carpeta, desarrolle los programas con los nombres especificados para cada ejercicio de la práctica.
@@ -374,6 +466,7 @@ Provincia: 6
 Número de operación: 25
 Dígito de control: 7
 Comprobación: error
+</details>
 Fundamentos de la Programación. Práctica de Laboratorio 3
 E.T.S. Ingeniería Informática. Universidad de Málaga.
 Tema 2: Estructuras de Control: Sentencias de Iteración

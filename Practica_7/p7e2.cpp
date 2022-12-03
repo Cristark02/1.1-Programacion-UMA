@@ -10,17 +10,19 @@ typedef array < Filas, MAX_FILAS > Matriz;
 
 void buscar_simetrico (const Matriz& n)
 {
-    bool simetrica = false;
+    bool simetrica = true;
     for (int i = 0; i < MAX_FILAS; i++)
     {
-        for (int j = i+1; j < MAX_COLMS - 1; j++)
+        for (int j = i+1; j < MAX_COLMS - i; j++)
         {
-            if (n[i][j] == n[j][i])
-                simetrica = true;
-            else
-                return;
+            if (n[i][j] != n[j][i])
+                simetrica = false;
         }
     }
+    if (simetrica)
+        cout << "La matriz es simetrica." << endl;
+    else
+        cout << "La matriz no  es simetrica. " << endl;
 }
 
 void leer (Matriz& n)
@@ -33,7 +35,6 @@ void leer (Matriz& n)
             cin >> n[i][j];
         }
     }
-    cout << endl;
 }
 
 int main ()
